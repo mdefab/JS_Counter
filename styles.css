@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height:40rem;
+    margin:auto;
+}
+
+#number-title {
+    font-size:4rem;
+}
+
+#number{
+    color:green;
+    height:15rem;
+    font-size:10rem;
+}
+
+#number-changer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius:4px;
+    font-size:2rem;
+    margin:1rem;
+}
+
+.btn:hover {
+    background-color: yellow;
+}
+
+#increment {
+    font-size: 1rem;
+}
+
+@media (max-width:30rem){
+    #number-changer {
+        flex-direction:column;
+    }
+    .btn{
+        font-size:1rem;
+    }
+    #increment {
+        font-size:0.5rem;
+    }
+}

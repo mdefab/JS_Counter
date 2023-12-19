@@ -1,0 +1,1 @@
+Counter that can increase, decrease, or reset the counter number. You can also set the increment between 1-5 for each click.
